@@ -25,17 +25,17 @@
     ]
   },
   {
-    "slug": "sky",
-    "name": "sky",
+    "slug": "monmon",
+    "name": "monmon",
     "background": "/images/background/PrintScribe2.png",
     "message": "To <strong>My Dearest Friends</strong>. Thank you for your unwavering support and laughter. You make every moment brighter.gahahahah",
     "gallery": [
       "/images/portfolio/website/1.png",
-      "/images/portfolio/website/1.png",
-      "/images/portfolio/website/1.png",
-      "/images/portfolio/website/1.png",
-      "/images/portfolio/website/1.png",
-      "/images/portfolio/website/1.png"
+      "/images/portfolio/website/2.png",
+      "/images/portfolio/website/3.png",
+      "/images/portfolio/website/4.png",
+      "/images/portfolio/website/5.png",
+      "/images/portfolio/website/6.png"
     ]
   }
 ]
