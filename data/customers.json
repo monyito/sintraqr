@@ -1,0 +1,41 @@
+[
+  {
+    "slug": "mitch",
+    "name": "Mitch",
+    "background": "/images/background/PrintScribe2.png",
+    "message": "To <strong>My Family</strong>. You are my greatest blessing. Life feels complete because I have you both by my side. To my wife—you are the heart of our home, the one who gives love and warmth to everything we do. To my son—you are our joy, our light, and the reason our days are filled with laughter and meaning.",
+    "gallery": [
+      "/images/portfolio/website/1.png",
+      "/images/portfolio/website/2.png",
+      "/images/portfolio/website/3.png"
+    ]
+  },
+  {
+    "slug": "ray",
+    "name": "Ray",
+    "background": "/images/background/PrintScribe2.png",
+    "message": "To <strong>My Dearest Friends</strong>. Thank you for your unwavering support and laughter. You make every moment brighter.gahahahah",
+    "gallery": [
+      "/images/portfolio/website/1.png",
+      "/images/portfolio/website/1.png",
+      "/images/portfolio/website/1.png",
+      "/images/portfolio/website/1.png",
+      "/images/portfolio/website/1.png",
+      "/images/portfolio/website/1.png"
+    ]
+  },
+  {
+    "slug": "sky",
+    "name": "sky",
+    "background": "/images/background/PrintScribe2.png",
+    "message": "To <strong>My Dearest Friends</strong>. Thank you for your unwavering support and laughter. You make every moment brighter.gahahahah",
+    "gallery": [
+      "/images/portfolio/website/1.png",
+      "/images/portfolio/website/1.png",
+      "/images/portfolio/website/1.png",
+      "/images/portfolio/website/1.png",
+      "/images/portfolio/website/1.png",
+      "/images/portfolio/website/1.png"
+    ]
+  }
+]
