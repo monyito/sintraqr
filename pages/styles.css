@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-poppins text-black bg-white;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-playfair;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .glow {
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.5);
+  }
+}
+@layer components {
+  .gallery-item {
+    @apply relative overflow-hidden;
+  }
+  
+  .gallery-item-overlay {
+    @apply absolute inset-0 bg-black bg-opacity-0 
+           flex items-end justify-center p-4
+           transition-all duration-300 ease-in-out;
+  }
+  
+  .gallery-item:hover .gallery-item-overlay {
+    @apply bg-opacity-80;
+  }
+  
+  .gallery-item-caption {
+    @apply text-white text-xs sm:text-sm text-center
+           transform translate-y-full
+           transition-transform duration-300 ease-in-out;
+  }
+  
+  .gallery-item:hover .gallery-item-caption {
+    @apply translate-y-0;
+  }
+}
+/* Hide lightbox navigation arrows on mobile */
+@media (max-width: 767px) {
+  .yarl__navigation_prev,
+  .yarl__navigation_next {
+    display: none !important;
+  }
+}
+
+/* Ensure caption doesn't overflow and has proper spacing on mobile */
+.yarl__slide_footer {
+  max-width: 100vw !important;
+  overflow-x: hidden !important;
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+}
+
+@media (min-width: 640px) {
+  .yarl__slide_footer {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+}
+/* Prevent caption overlap with photo text */
+.yarl__slide_footer {
+  background: transparent !important;
+}
+
+/* Ensure captions have solid backgrounds */
+.yarl__slide_footer > div {
+  isolation: isolate;
+  z-index: 9999;
+}
+
+/* Increase lightbox container opacity */
+.yarl__container {
+  background-color: rgba(0, 0, 0, 0.98) !important;
+}
